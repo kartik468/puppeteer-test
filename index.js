@@ -34,7 +34,7 @@ const URL =
   `;
 
   await page.pdf({
-    path: "pdfs/abc2.pdf",
+    path: "pdfs/site.pdf",
     format: "letter",
     displayHeaderFooter: true,
     headerTemplate: header,
